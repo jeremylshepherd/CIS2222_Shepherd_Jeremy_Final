@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ShepherdJeremyFinalProject_01.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>CIS 2222 | Jeremy L. Shepherd</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-yrfSO0DBjS56u5M+SjWTyAHujrkiYVtRYh2dtB3yLQtUz3bodOeialO59u5lUCFF" crossorigin="anonymous">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <div class="container">
+                <h1>CIS 2222 | Jeremy L. Shepherd</h1>
+            </div>
+            <div class="container">
+                <div class="row d-flex flex-row-reverse">
+                <asp:Label ID="Time" runat="server"><%= DateTime.Now.ToString("MM/dd/yyyy hh:mm tt") %></asp:Label>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div class="collapse navbar-collapse" id="navbarColor03">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="Home.aspx">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="About.aspx">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Contact.aspx">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/">Default</a>
+                  </li>
+                </ul>                
+              </div>
+            </nav>
+        </header>
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-8">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                <h1>Default</h1>
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="col-sm-4">
+            <aside>
+                <h1>An Aside</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua. Dolor morbi non arcu risus quis 
+                    varius quam quisque id. Gravida arcu ac tortor dignissim. Cursus vitae congue 
+                    mauris rhoncus aenean vel elit. Imperdiet dui accumsan sit amet nulla. Amet 
+                    venenatis urna cursus eget nunc. Vitae congue eu consequat ac. Nec tincidunt 
+                    praesent semper feugiat. Egestas integer eget aliquet nibh praesent tristique. 
+                    In iaculis nunc sed augue lacus viverra. Dignissim convallis aenean et tortor. 
+                    Nam libero justo laoreet sit amet.
+                </p>
+                <p>
+                    Ut venenatis tellus in metus. Sed velit dignissim sodales ut eu. Cum sociis 
+                    natoque penatibus et magnis. Ullamcorper malesuada proin libero nunc consequat. 
+                    Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. 
+                    Metus aliquam eleifend mi in nulla posuere sollicitudin. Aenean sed adipiscing diam 
+                    donec adipiscing tristique risus nec. Aliquam faucibus purus in massa. Bibendum ut 
+                    tristique et egestas. Id diam maecenas ultricies mi eget mauris pharetra et. Sollicitudin 
+                    tempor id eu nisl. Sodales ut etiam sit amet nisl purus in mollis.
+                </p>
+
+            </aside>
+        </div>
+        </div>
+    </div>
+        <footer class="bg-dark">
+            <div class="container">
+                <div class="row d-flex flex-row-reverse">
+                    <h4>CIS 2222 | Final Project</h4>
+                </div>
+            </div>
+        </footer>
+    </form>
+</body>
+</html>
