@@ -68,6 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="App_Data\Final_Project.mdf" />
+    <Content Include="App_Data\Final_Project_log.ldf">
+      <DependentUpon>Final_Project.mdf</DependentUpon>
+    </Content>
     <Content Include="Contact.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Home.aspx" />

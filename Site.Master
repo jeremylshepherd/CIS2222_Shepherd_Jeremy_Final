@@ -17,27 +17,28 @@
             </div>
             <div class="container">
                 <div class="row d-flex flex-row-reverse">
-                <asp:Label ID="Time" runat="server"><%= DateTime.Now.ToString("MM/dd/yyyy hh:mm tt") %></asp:Label>
-            </div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-              <div class="collapse navbar-collapse" id="navbarColor03">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" href="Home.aspx">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="About.aspx">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Contact.aspx">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/">Default</a>
-                  </li>
-                </ul>                
-              </div>
+                    <asp:Label ID="Time" runat="server"><%= DateTime.Now.ToString("MM/dd/yyyy hh:mm tt") %></asp:Label>
+                </div>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                  <div class="collapse navbar-collapse" id="navbarColor03">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="Home.aspx">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="About.aspx">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Contact.aspx">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/">Default</a>
+                      </li>
+                    </ul>                
+                  </div>
             </nav>
-        </header>
+        </div>
+    </header>
     <div class="container">
         <div class="row">
         <div class="col-sm-8">
