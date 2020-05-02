@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <h1>About</h1>
+    <h1>About (Content page 2)</h1>
     <p>
         Robusta as, cortado caramelization milk aroma half and half, in, americano 
         aromatic half and half cortado café au lait cream. Affogato so, to go froth, 
